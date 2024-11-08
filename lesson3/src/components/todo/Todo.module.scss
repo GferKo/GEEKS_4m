@@ -1,0 +1,20 @@
+.li {
+    width: 600px;
+    height: 100px;
+    border: 1px red solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    .info,
+    .btns{
+        display: flex;
+        gap: 10px;
+    }
+    button{
+        padding: 13px;
+        border: 1px #686868 solid;
+        border-radius: 1px;
+    }
+}
